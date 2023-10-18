@@ -29,6 +29,7 @@ export default function Produtos() {
       <ModalAction open={open} setClose={setOpen}/>
 
       <button onClick={()=> setOpen(true)}>OPEN-MODAL</button>
+      <Link to="/adicionar/produto"><button>ADICIONAR PRODUTO</button></Link>
       
       <div>
         <table className={styles.tblEstilo}>
